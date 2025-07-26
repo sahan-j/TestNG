@@ -28,7 +28,7 @@ public class Assertion {
         System.out.println("D");
         softAssert.assertEquals("ABD", "ABC", "Expected String is not met...");
         System.out.println("E");
-        softAssert.assertTrue(true,);
+        softAssert.assertTrue(true);
         System.out.println("F");
         softAssert.assertAll();
     }
